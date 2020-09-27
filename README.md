@@ -15,7 +15,11 @@ On a Linux terminal cd to the project root directory (same this file is
 present).
 
 Run the `install.sh` script as root, this will install all necessary system
-dependencies.
+dependencies:
+
+```console
+foo@bar:~$ ./install.sh
+```
 
 Then install Python dependencies executing:
 ```console
