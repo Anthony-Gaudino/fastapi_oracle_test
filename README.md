@@ -31,34 +31,10 @@ foo@bar:~$ pipenv install
 
 ![Database Diagram](diagram.png?raw=true "Database Diagram")
 
-If necessary, use the SQL in the `db.sql` file to create the database tables.
+Executing the `db.sql` in Oracle will create the necessary database tables and
+populate them with some data.
 
-**Note:** The SQL in this file was generated automatically and was not tested,
-changes may be necessary for it to generate the tables correctly!
 
-Populate the database with data.
-
-**Example data:**
-
-### Badge
-|BADGE_NUMBER|BADGE_STATUS|BADGE_EXPIRY_DATE  |
-| ---------- | ---------- | ----------------- |
-|1           | Active     |2021-01-01 12:00:00|
-
-### Department
-|DEPARTMENT_CODE|DEPARTMENT_NAME|
-| ------------- | ------------- |
-|1              |HR             |
-
-### Employee
-|ID|FIRSTNAME|LASTNAME|BADGE_NUMBER|COUNTRY_CODE|JOB_TITLE_CODE|START_DATE         |LEAVE_DATE         |
-|--| ------- | ------ |----------- |----------- |------------- |------------------ |------------------ |
-|1 |John     |Doe     |1           |us          |11            |2018-01-01 12:00:00|2021-01-01 12:00:00|
-
-### Job title
-|JOB_TITLE_CODE|JOB_TITLE_NAME  |DEPARTMENT_CODE|
-| ------------ | -------------- | ------------- |
-|1	           |Software Support|1              |
 
 ## Set database connection configuration
 
