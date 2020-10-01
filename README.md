@@ -66,7 +66,7 @@ First switch to the project virtual environment:
 foo@bar:~$ pipenv shell
 ```
 
-Then run the `unicorn` server:
+Then run the `uvicorn` server:
 ```console
 (fastapi_oracle_test-Xvyp61cG) foo@bar:~$ uvicorn app.main:app
 ```
